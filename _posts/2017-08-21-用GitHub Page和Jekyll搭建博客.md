@@ -2,7 +2,7 @@
 layout: post
 title:  "用GitHub Page和Jekyll搭建博客"
 date:   2017-08-18 13:55:08 +0800
-categories: documents
+categories: blog
 
 ---
 
