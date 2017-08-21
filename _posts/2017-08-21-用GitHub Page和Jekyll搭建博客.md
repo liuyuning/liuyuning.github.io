@@ -179,3 +179,5 @@ Configuration file: /Users/liuyuning/tmp/mysite/_config.yml
 
 #### 参考
 * 如何撰写，加入评论，流量统计[http://www.jianshu.com/p/ffbbed22f984](http://www.jianshu.com/p/ffbbed22f984)
+* Home Page [https://github.com/liuyuning/](https://liuyuning.github.io/)
+* GitHub [https://github.com/liuyuning/](https://github.com/liuyuning/)
