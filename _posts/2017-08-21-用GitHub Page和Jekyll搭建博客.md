@@ -177,6 +177,18 @@ Configuration file: /Users/liuyuning/tmp/mysite/_config.yml
 
 在"_posts"目录里面添加markdown文件就是博客了，Jekyll的server会自动生成预览。
 
+### 4、部署
+首先在GitHub创建一个用户名开头的Repo，如liuyuning.github.io.git<br/>再执行一堆下面的Git命令，然后访问https://liuyuning.github.io/就能看到了
+
+```shell
+$ cd mysite/
+$ git init
+$ git remote add liuyuning  https://github.com/liuyuning/liuyuning.github.io.git
+$ git pull liuyuning master --allow-unrelated-histories
+$ git add .
+$ git commit -m "first commit"
+$ git push liuyuning master
+```
 #### 参考
 * 如何撰写，加入评论，流量统计[http://www.jianshu.com/p/ffbbed22f984](http://www.jianshu.com/p/ffbbed22f984)
 * Home Page [https://github.com/liuyuning/](https://liuyuning.github.io/)
