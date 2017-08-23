@@ -28,7 +28,9 @@ github_username:  liuyuning
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: jekyll-theme-slate
+
 plugins:
   - jekyll-feed
 
