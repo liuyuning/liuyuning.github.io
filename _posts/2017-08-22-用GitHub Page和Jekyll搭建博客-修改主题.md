@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "用GitHub Page和Jekyll搭建博客-修改主题"
-date:   2017-08-18 13:55:08 +0800
+date:   2017-08-22 13:55:08 +0800
 categories: blog
 
 ---

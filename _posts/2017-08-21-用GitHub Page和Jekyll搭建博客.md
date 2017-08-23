@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "用GitHub Page和Jekyll搭建博客"
-date:   2017-08-18 13:55:08 +0800
+date:   2017-08-21 17:05:08 +0800
 categories: blog
 
 ---
@@ -35,8 +35,8 @@ ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
 $ gem install jekyll
 Fetching: public_suffix-2.0.5.gem (100%)
 ERROR:  While executing gem ... (Gem::FilePermissionError)
-    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
-    
+You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+
 ...
 liquid requires Ruby version >= 2.1.0.
 #安装失败，提示Ruby版本太低
@@ -56,7 +56,7 @@ Already downloaded: /Users/liuyuning/Library/Caches/Homebrew/ruby-2.4.1_1.sierra
 ==> Pouring ruby-2.4.1_1.sierra.bottle.tar.gz
 ==> Caveats
 Emacs Lisp files have been installed to:
-  /usr/local/share/emacs/site-lisp/ruby
+/usr/local/share/emacs/site-lisp/ruby
 ==> Summary
 🍺  /usr/local/Cellar/ruby/2.4.1_1: 1,191 files, 15.5MB
 ```
@@ -81,7 +81,7 @@ Done installing documentation for public_suffix, addressable, colorator, rb-fsev
 
 ```shell
 $ jekyll new mysite
-  Dependency Error: Yikes! It looks like you don't have bundler or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- bundler' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
+Dependency Error: Yikes! It looks like you don't have bundler or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- bundler' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
 ```
 提示缺少bundler，再安装bundler
 
@@ -103,37 +103,37 @@ Done installing documentation for bundler after 3 seconds
 ```shell
 $ jekyll new mysite
 Running bundle install in /Users/liuyuning/tmp/mysite... 
-  Bundler: The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
-  Bundler: Fetching gem metadata from https://rubygems.org/...........
-  Bundler: Fetching version metadata from https://rubygems.org/..
-  Bundler: Fetching dependency metadata from https://rubygems.org/.
-  Bundler: Resolving dependencies...
-  Bundler: Using public_suffix 2.0.5
-  Bundler: Using bundler 1.15.3
-  Bundler: Using colorator 1.1.0
-  Bundler: Using ffi 1.9.18
-  Bundler: Using forwardable-extended 2.6.0
-  Bundler: Using rb-fsevent 0.10.2
-  Bundler: Using kramdown 1.14.0
-  Bundler: Using liquid 4.0.0
-  Bundler: Using mercenary 0.3.6
-  Bundler: Using rouge 1.11.1
-  Bundler: Using safe_yaml 1.0.4
-  Bundler: Using addressable 2.5.1
-  Bundler: Using rb-inotify 0.9.10
-  Bundler: Using pathutil 0.14.0
-  Bundler: Using sass-listen 4.0.0
-  Bundler: Using listen 3.0.8
-  Bundler: Using sass 3.5.1
-  Bundler: Using jekyll-watch 1.5.0
-  Bundler: Using jekyll-sass-converter 1.5.0
-  Bundler: Using jekyll 3.5.2
-  Bundler: Fetching jekyll-feed 0.9.2
-  Bundler: Installing jekyll-feed 0.9.2
-  Bundler: Fetching minima 2.1.1
-  Bundler: Installing minima 2.1.1
-  Bundler: Bundle complete! 4 Gemfile dependencies, 22 gems now installed.
-  Bundler: Use `bundle info [gemname]` to see where a bundled gem is installed.
+Bundler: The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Bundler: Fetching gem metadata from https://rubygems.org/...........
+Bundler: Fetching version metadata from https://rubygems.org/..
+Bundler: Fetching dependency metadata from https://rubygems.org/.
+Bundler: Resolving dependencies...
+Bundler: Using public_suffix 2.0.5
+Bundler: Using bundler 1.15.3
+Bundler: Using colorator 1.1.0
+Bundler: Using ffi 1.9.18
+Bundler: Using forwardable-extended 2.6.0
+Bundler: Using rb-fsevent 0.10.2
+Bundler: Using kramdown 1.14.0
+Bundler: Using liquid 4.0.0
+Bundler: Using mercenary 0.3.6
+Bundler: Using rouge 1.11.1
+Bundler: Using safe_yaml 1.0.4
+Bundler: Using addressable 2.5.1
+Bundler: Using rb-inotify 0.9.10
+Bundler: Using pathutil 0.14.0
+Bundler: Using sass-listen 4.0.0
+Bundler: Using listen 3.0.8
+Bundler: Using sass 3.5.1
+Bundler: Using jekyll-watch 1.5.0
+Bundler: Using jekyll-sass-converter 1.5.0
+Bundler: Using jekyll 3.5.2
+Bundler: Fetching jekyll-feed 0.9.2
+Bundler: Installing jekyll-feed 0.9.2
+Bundler: Fetching minima 2.1.1
+Bundler: Installing minima 2.1.1
+Bundler: Bundle complete! 4 Gemfile dependencies, 22 gems now installed.
+Bundler: Use `bundle info [gemname]` to see where a bundled gem is installed.
 New jekyll site installed in /Users/liuyuning/tmp/mysite. 
 ```
 看看都生成了哪些文件
@@ -160,19 +160,19 @@ $ cd mysite/
 $ jekyll serve
 
 Configuration file: /Users/liuyuning/tmp/mysite/_config.yml
-            Source: /Users/liuyuning/tmp/mysite
-       Destination: /Users/liuyuning/tmp/mysite/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-                    done in 0.281 seconds.
- Auto-regeneration: enabled for '/Users/liuyuning/tmp/mysite'
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
+Source: /Users/liuyuning/tmp/mysite
+Destination: /Users/liuyuning/tmp/mysite/_site
+Incremental build: disabled. Enable with --incremental
+Generating... 
+done in 0.281 seconds.
+Auto-regeneration: enabled for '/Users/liuyuning/tmp/mysite'
+Server address: http://127.0.0.1:4000/
+Server running... press ctrl-c to stop.
 [2017-08-14 18:55:14] ERROR `/favicon.ico' not found.
 ```
 运行后生成"mysite/_site/"，里面生成了临时的html等<br/>
 访问[http://127.0.0.1:4000/](http://127.0.0.1:4000/)，如图
- <img src="{{ site.url }}/images/mysite.png" border="1" bordercolor="#000000"/>
+<img src="{{ site.url }}/images/mysite.png" border="1" bordercolor="#000000"/>
 <!--![]({{ site.url }}/images/mysite.png)-->
 
 3、添加博客
