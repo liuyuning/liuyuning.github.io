@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "用GitHub Page和Jekyll搭建博客"
 date:   2017-08-18 13:55:08 +0800
 categories: blog
@@ -10,7 +10,9 @@ categories: blog
 GitHub地球人都能用，所以也想把博客也搬到这里，方便阅读。下面就自己搭建博客的过程，记录下来备忘。
 
 ### 1、比较
-现在网上有很多和GitHub Page搭配的方案，比如Hugo，Hexo、Jekyll、Octopress，实际上在GitHut搜索一下就能看到各种各样的主页。既然是GitHub推荐，那么就用[Jekyll](http://jekyll.com.cn/)来做吧。<br/>[知乎上比较的帖子](https://www.zhihu.com/question/20376047?sort=created)
+现在网上有很多和GitHub Page搭配的方案，比如Hugo，Hexo、Jekyll、Octopress，实际上在GitHut搜索一下就能看到各种各样的主页。既然是GitHub推荐，那么就用[Jekyll](http://jekyllcn.com/)来做吧。
+<br/>很奇怪Jekyll中文有两个网站[jekyllcn.com](http://jekyllcn.com/)， [jekyll.com.cn](http://jekyll.com.cn/)
+<br/>[知乎上比较的帖子](https://www.zhihu.com/question/20376047?sort=created)
 
 
 ### 2、系统和工具
